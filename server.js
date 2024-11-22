@@ -14,7 +14,7 @@ app.post('/subscribe', (req, res) => {
     const email = req.body.email;
 
     const data = {
-        from: 'Keshav Bansal <no-reply@yourdomain.com>',
+        from: 'Abhay  <no-reply@yourdomain.com>',
         to: email,
         subject: 'Welcome to Our Newsletter!',
         text: 'Thank you for subscribing to our newsletter. We are glad to have you with us!',
