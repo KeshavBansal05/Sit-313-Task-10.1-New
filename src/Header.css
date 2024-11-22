@@ -1,0 +1,30 @@
+.head {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  input[type='email'] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid black;
+  }
+  
+  span {
+    margin: 0 10px; 
+    color: white; 
+  }
+  .search-bar {
+    padding: 10px; 
+    width: 1000px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    outline: none; 
+    transition: border 0.3s; 
+}
+
+.search-bar:focus {
+    border-color: #007bff; 
+}

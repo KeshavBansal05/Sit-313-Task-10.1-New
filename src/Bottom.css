@@ -1,0 +1,33 @@
+/* Styling for the container that holds the form */
+.head {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+/* Styling for the email input field */
+input[type='email'] {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid black;
+}
+
+
+/* Styling for the submit button */
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+/* Button hover effect */
+
+

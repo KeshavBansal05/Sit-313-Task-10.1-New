@@ -1,0 +1,81 @@
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    color: white; 
+    padding: 20px;
+  }
+  
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .Explore,
+  .support,
+  .socialmedia {
+    color: white; 
+    padding: 10px;
+  }
+  
+  .Explore p,
+  .support p,
+  .socialmedia p {
+    font-weight: bold;
+  }
+  
+  .Icons {
+    display: flex;
+  }
+  
+  .Icons img {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px; 
+  }
+  
+  .dev {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+  }
+  
+  .dev1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0px;
+  }
+  
+  .dev1 p {
+    margin: 0;
+    font-size: small;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .dev1 p:hover {
+    text-decoration: underline;
+  }
+  .Icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.Icons li {
+    list-style: none; 
+}
+
+.foot{
+  background-color: white;
+}
